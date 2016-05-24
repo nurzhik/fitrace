@@ -151,4 +151,30 @@ $(document).ready(function(){
 
     })
 
+
+
+
+
+var sex, height, weight, age, coa, bmr, result;
+$('.sex').on('click', function() {
+    sex = $(this).val();
+});
+
+$('#calculator').submit(function() {
+    height = $('.height').val();
+    weight = $('.weight').val();
+    age = $('.age').val();
+    coa = 1.375;
+
+    if (sex === 'man') {
+        bmr = 66 + ((13.7 * weight) + (5 * height) - (6.8 * age));
+        result = Math.round(bmr * coa);
+    } else {
+        bmr = 665 + ((9.6 * weight) + (1.8 * height) - (4.7 * age));
+        result = Math.round(bmr * coa);
+    }
+
+    $('.result').text(result);
+});
+
  });

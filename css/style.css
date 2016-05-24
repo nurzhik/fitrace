@@ -1080,3 +1080,86 @@ border-left: 6px solid #5296af;
 }
 
 /*вопросы конец*/
+/*калк*/
+.pol {
+    font-family: "PFD";
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3c7c93;
+    margin-bottom: 25px;
+}
+.form_cal_input {
+    width: 33%;
+    float: left;
+    font-family: "PFD";
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3c7c93;
+}
+.form_cal_input label {
+    float: left;
+    margin-right: 15px;
+    line-height: 31px;
+}
+.form_cal_input input {
+    line-height: 24px;
+}
+.get_consultation.calc_but {
+    display: inline-block;
+    padding: 0 50;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.result_txt {
+    font-family: "PFD";
+    font-size: 24px;
+    color: #3c7c93;
+}
+.form_cal {
+    text-align: center;
+}
+.result_txt strong {
+    clear: both;
+    display: block;
+}
+/*калк*/
+.name_stats {
+    font-family: "FerretFace";
+    font-size: 100px;
+    text-align: center;
+    color:#020f17;
+}
+.oplata_card {
+    font-family: "PFD";
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    overflow: hidden;
+}
+.oplata_card p {
+    font-family: "PFD";
+    font-size: 20px;
+    color: #000c14;
+    margin-bottom: 15px;
+}
+.colvo, .summa {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.oplata_input {
+    line-height: 46px;
+    font-family: "PFD";
+    font-size: 24px;
+    border-radius: 7px;
+    box-shadow: inset 0 0 7px rgba(0,0,0,0.5);
+    text-indent: 7px;
+    margin: 0 10px;
+    border: none;
+}
+.get_consultation.oplata {
+    margin: 25px auto;
+    padding: 0 44px;
+    line-height: 41px;
+}
