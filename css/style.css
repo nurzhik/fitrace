@@ -1,5 +1,14 @@
 
-
+/* font-family: "PTSansBold" */
+@font-face {
+    font-family: "PTSansBold";
+    src: url("../fonts/PTSansBold/PTSansBold.eot");
+    src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
+    url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 /* font-family: "PFDinTextCompPro-Regular" */
 @font-face {
     font-family: "PFD";
@@ -7,6 +16,16 @@
     src: url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.eot?#iefix")format("embedded-opentype"),
     url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.woff") format("woff"),
     url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansRegular"; */
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+    url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -744,4 +763,226 @@ border-left: 6px solid #5296af;
 }
 .mob_ul li a:hover {
     text-decoration: underline;
+}
+.inputfile.inputfile-3 + label img, .inputfile.inputfile-4 + label img, .inputfile.inputfile-5 + label img {
+    width: 18px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.avatars>label>span {
+    overflow: hidden;
+    display: block;
+    font-family: "PFD";
+    font-size: 18px;
+}
+.inputfile.inputfile-5 + label {
+    max-width: 100%;
+    text-align: left;
+    color: #fff;
+}
+.content_top {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.consultant {
+    width: 31.5%;
+    margin-right: 2.4%;
+    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+}
+.consultant .consultant_item {
+    margin: 0px;
+    /* padding: 10px; */
+    width: 262px;
+    margin-bottom: 15px;
+}
+.consultant_item_img {
+    border: 1px solid #b8b8b8;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.consultant_item_img.second img {
+    width: 100%;
+    display: block;
+}
+
+.get_consultation {
+    line-height: 44px;
+    background-color: #06add7;
+    display: block;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    padding: 0 5;
+    font-family: "PFD";
+    font-size: 22px;
+    padding: 0 25px;
+    border-radius: 8px;
+    /* box-shadow: 0px 3px 0px 0px #011825; */
+    border-bottom: 3px solid #011825;
+}
+.avatars {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.42);
+    width: 100%;
+}
+.consultant_info {
+    width: 64.6%;
+    float: left;
+    color: #6b6b6b;
+    font-family: "PFD";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+.title_min_prof {
+    background: #3c7c93;
+    font-family: "PFD";
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 34px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.city_lang {
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 16px;
+    clear: both;
+}
+.city {
+    width: 100%;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+}
+.city select {
+    /* width: 50%; */
+    line-height: 28px;
+    font-family: "PFD";
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+.write_consult_content input, .write_consult_form {
+    width: 100%;
+    line-height: 28px;
+    text-indent: 10px;
+    padding: 0;
+    border: 1px solid #898989;
+    outline: none;
+    margin-bottom: 15px;
+}
+.file_w {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.file_w > span {
+    float: left;
+    font-size: 14px;
+}
+#Upload0Attachment, #Upload1Attachment, #UserPhoto, #Upload2Attachment, #Upload3Attachment, #Upload4Attachment, #UserDoc1, #UserDoc2, #RecallPhoto, #photo, #file-3, #file-4, #file-5 {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    outline: none;
+}
+.inputfile.inputfile-4 + label {
+    /* line-height: 34px; */
+    background: #00c000;
+    border: none;
+    font-size: 14px;
+    font-family: "PFD";
+    color: #fff;
+    border-radius: 8px;
+    /* text-align: center; */
+    padding: 8px 43px;
+    border-bottom: 3px solid #007400;
+    outline: none;
+    font-size: 24px;
+}
+.file_w>label>span {
+    font-family: "PFD";
+    font-size: 24px;
+    margin-left: 5px;
+}
+.inputfile + label {
+    max-width: 80%;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.6rem 1.1rem;
+    outline: none;
+}
+
+.stats {
+    line-height: 34px;
+    padding: 0 34px;
+    background: #00d122;
+    display: inline-block;
+    color: #fff;
+    float: right;
+    font-size: 22px;
+    font-family: "PFD";
+}
+.no{
+    background-color: #ff0000;
+}
+.not_finished{
+    background-color: #f7941d;
+}
+.stats_container {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.category_content p {
+    font-family: "PTSAnsREgular";
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #011825;
+}
+.title_content {
+    font-family: "PTSansBold";
+    color: #011825;
+    margin-bottom: 15px;
+}
+.message_list {
+    overflow: hidden;
+}
+.message_list li {
+    border: 1px solid #a1a1a1;
+    margin-bottom: 15px;
+    list-style: none;
+    width: 60%;
+}
+.message_list li:nth-child(even) {
+    float: right;
+}
+.message_header {
+    font-size: 16px;
+    font-family: "PTSansRegular";
+    /* display: inline-flex; */
+    background: #ecf8ff;
+    line-height: 34px;
+    border-bottom: 1px solid #a1a1a1;
+    padding: 0 15px;
+}
+.date, .time {
+    margin-left: 15px;
+    float: right;
+}
+.message_content {
+    padding: 15px 15px 0;
 }
