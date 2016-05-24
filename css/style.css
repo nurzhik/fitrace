@@ -986,3 +986,97 @@ border-left: 6px solid #5296af;
 .message_content {
     padding: 15px 15px 0;
 }
+/*primer zadan*/
+.primer_title {
+    font-family: "FerretFace";
+    font-size: 38px;
+    color: #Fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.primer_list li {
+    width: 33%;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.primer_item {
+    width: 95%;
+    background: #00476b;
+    text-align: center;
+    display: inline-block;
+}
+.video_primer {
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+/*primer end*/
+/*вопросы*/
+.voprosi_list li {
+    width: 33%;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+}
+.voprosi_list {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.voprosi_item {
+    width: 96%;
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+.voprosi_header {
+    line-height: 50px;
+    background: #4c7989;
+    color: #fff;
+    font-size: 24px;
+    font-family: "PFD";
+    text-transform: uppercase;
+}
+.voprosi_header:before {
+    display: block;
+    width: 38px;
+    height: 38px;
+    content: "";
+    float: left;
+    margin: 1px 5px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.voprosi_header.first:before {
+    background-image: url(../img/time_vopros.png);
+}
+.voprosi li span:after {
+    content: ">";
+    font-family: "PTSansBold";
+    font-size: 18px;
+    float: right;
+    display: block;
+}
+.voprosi li {
+    display: block;
+    float: none;
+    padding: 12px 0;
+    width: 100%;
+    vertical-align: center;
+    font-family: "PTSansBold";
+    border-bottom: 1px solid #c6c6c6;
+}
+.step-text {
+    width: 99%;
+    display: none;
+}
+.voprosi_header.second:before {
+    background-image: url(../img/calc_vopros.png);
+}
+.voprosi_header.three:before {
+    background-image: url(../img/three.png);
+}
+
+/*вопросы конец*/

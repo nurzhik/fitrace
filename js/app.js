@@ -144,4 +144,11 @@ $(document).ready(function(){
 		
 	  });
 
-      });
+     
+ $('.voprosi li').on('click', function () {
+        $('.voprosi li').children('.step-text').animate({height: "hide"}, "800");
+        $(this).children('.step-text').animate({height: "show"}, "800");
+
+    })
+
+ });
